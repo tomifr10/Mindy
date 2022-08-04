@@ -88,6 +88,7 @@ async function getAPI() {
 
             const productos = data.response;
             let carrito = [];
+            console.log(typeof(contenedorFarmacia))
 
 
             // VEREIFICAR SI YA TIENE CONTENIDO MI LOCAL STORAGE

@@ -4,7 +4,7 @@ var datoNombre = ""
 nombreYApellido.addEventListener("keyup", (event)=>{
 
     var dato = event.target.value
-    console.log(dato)
+    // console.log(dato)
     var correctNombre=dato.trim()
     .toLowerCase() 
     .split(" ")
